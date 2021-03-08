@@ -25,7 +25,7 @@ SOFTWARE.
 import { Component } from "react";
 import EChartsChart from "./EChartsChart";
 
-class NestedPieChart extends Component {
+class NetworkGraph extends Component {
   constructor({ innerData, outerData, innerName, outerName, style }) {
     super({ innerData, outerData, innerName, outerName, style });
   }
@@ -95,4 +95,4 @@ class NestedPieChart extends Component {
   }
 }
 
-export default NestedPieChart;
+export default NetworkGraph;

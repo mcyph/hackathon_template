@@ -20,7 +20,7 @@ import Editors from "./lib/examples/Editors";
 import Gamification from "./lib/examples/Gamification";
 import Landing from "./lib/examples/Landing";
 import Layout from "./lib/examples/Layout";
-import Map from "./lib/examples/Map";
+import Maps from "./lib/examples/Maps";
 import Previews from "./lib/examples/Previews";
 
 import OffCanvasSidebar from "./lib/controls/containers/offcanvas/OffCanvasSidebar";
@@ -36,6 +36,7 @@ import FormsTextControls from "./lib/examples/controls/FormsTextControls";
 import FormsToggleControls from "./lib/examples/controls/FormsToggleControls";
 import Labels from "./lib/examples/Labels";
 import Toasts from "./lib/examples/Toasts";
+import Calendars from "./lib/examples/controls/Calendars";
 
 let MyNav=()=>{
   return <>
@@ -56,6 +57,7 @@ let MyNav=()=>{
           <a>Forms</a>
           <NavTree>
             <NavTreeItem><Link to="/forms_buttons">Buttons</Link></NavTreeItem>
+            <NavTreeItem><Link to="/forms_calendars">Calendars</Link></NavTreeItem>
             <NavTreeItem><Link to="/progress">Progress</Link></NavTreeItem>
             <NavTreeItem><Link to="/forms_select_controls">Select Controls</Link></NavTreeItem>
             <NavTreeItem><Link to="/forms_sliders">Sliders</Link></NavTreeItem>
@@ -78,7 +80,7 @@ let MyNav=()=>{
             <NavTreeItem><Link to="/charts">Charts</Link></NavTreeItem>
             <NavTreeItem><Link to="/icons">Icons</Link></NavTreeItem>
             <NavTreeItem><Link to="/images">Images</Link></NavTreeItem>
-            {/*<NavTreeItem><Link to="/map">Map Visualizations</Link></NavTreeItem>*/}
+            <NavTreeItem><Link to="/maps">Maps/GIS</Link></NavTreeItem>
           </NavTree>
         </NavTreeItem>
         <NavTreeItem>
@@ -131,6 +133,7 @@ let ExampleKitchenSink=()=>{
           <Route path="/labels"><SourceDisplay reactClass={<Labels/>} jsonKey="Labels"/></Route>
           <Route path="/toasts"><SourceDisplay reactClass={<Toasts/>} jsonKey="Toasts"/></Route>
 
+          <Route path="/forms_calendars"><SourceDisplay reactClass={<Calendars/>} jsonKey="Calendars"/></Route>
           <Route path="/forms_buttons"><SourceDisplay reactClass={<FormsButtons/>} jsonKey="FormsButtons"/></Route>
           <Route path="/forms_select_controls"><SourceDisplay reactClass={<FormsSelectControls/>} jsonKey="FormsSelectControls"/></Route>
           <Route path="/forms_sliders"><SourceDisplay reactClass={<FormsSliders/>} jsonKey="FormsSliders"/></Route>
@@ -150,7 +153,7 @@ let ExampleKitchenSink=()=>{
           <Route path="/gamification"><SourceDisplay reactClass={<Gamification/>} jsonKey="Gamification"/></Route>
           <Route path="/landing"><SourceDisplay reactClass={<Landing/>} jsonKey="Landing"/></Route>
           <Route path="/layout"><SourceDisplay reactClass={<Layout/>} jsonKey="Layout"/></Route>
-          <Route path="/map"><SourceDisplay reactClass={<Map/>} jsonKey="Map"/></Route>
+          <Route path="/maps"><SourceDisplay reactClass={<Maps/>} jsonKey="Maps"/></Route>
           <Route path="/previews"><SourceDisplay reactClass={<Previews/>} jsonKey="Previews"/></Route>
 
           <Route path="/"><SourceDisplay reactClass={<Layout/>} jsonKey="Layout" /></Route>
