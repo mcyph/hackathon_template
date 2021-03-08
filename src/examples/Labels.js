@@ -1,4 +1,4 @@
-import Label from "../controls/containers/Label";
+import Label from "../libraries/containers/Label";
 
 function Labels() {
   return <>

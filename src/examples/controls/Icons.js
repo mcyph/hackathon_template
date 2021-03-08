@@ -1,5 +1,5 @@
-import SpectreCSSIcon from "../../controls/icons/SpectreCSSIcon";
-import FontAwesomeIcon from "../../controls/icons/FontAwesomeIcon";
+import SpectreCSSIcon from "../../libraries/icons/SpectreCSSIcon";
+import FontAwesomeIcon from "../../libraries/icons/FontAwesomeIcon";
 
 let Icons=()=>{
   let spectreIcons = [];

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Toast from "../controls/containers/Toast";
+import Toast from "../libraries/containers/Toast";
 
 function Toasts() {
   let [toastClosed, setToastClosed] = useState(false);

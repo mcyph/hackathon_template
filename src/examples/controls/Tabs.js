@@ -1,5 +1,5 @@
-import Tabs from "../../controls/tabs/Tabs";
-import TabItem from "../../controls/tabs/TabItem";
+import Tabs from "../../libraries/tabs/Tabs";
+import TabItem from "../../libraries/tabs/TabItem";
 
 let _Tabs=()=>{
   return <>

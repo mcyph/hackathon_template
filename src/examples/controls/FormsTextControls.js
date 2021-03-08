@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import MultiLineText from "../../controls/forms/controls/text/MultiLineText";
-import SingleLineText from "../../controls/forms/controls/text/SingleLineText";
+import MultiLineText from "../../libraries/forms/controls/text/MultiLineText";
+import SingleLineText from "../../libraries/forms/controls/text/SingleLineText";
 
 let FormsTextControls=()=>{
   const [singleLineText, setSingleLineText] = useState("my text value");

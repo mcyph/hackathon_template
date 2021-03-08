@@ -1,6 +1,6 @@
 //import CommentEditor from "../editors/CommentEditor";
-import MarkdownEditor from "../editors/MarkdownEditor";
-import SourceCodeEditor from "../editors/SourceCodeEditor";
+import MarkdownEditor from "../libraries/editors/MarkdownEditor";
+import SourceCodeEditor from "../libraries/editors/SourceCodeEditor";
 
 let Editors=()=>{
   return <>

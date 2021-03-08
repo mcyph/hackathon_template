@@ -1,7 +1,7 @@
-import Menu from "../../controls/menus/Menu";
-import MenuBadge from "../../controls/menus/MenuBadge";
-import MenuDivider from "../../controls/menus/MenuDivider";
-import MenuItem from "../../controls/menus/MenuItem";
+import Menu from "../../libraries/menus/Menu";
+import MenuBadge from "../../libraries/menus/MenuBadge";
+import MenuDivider from "../../libraries/menus/MenuDivider";
+import MenuItem from "../../libraries/menus/MenuItem";
 
 let Menus=()=>{
   return <>

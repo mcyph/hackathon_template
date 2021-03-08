@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import Button from "../../controls/forms/controls/Button";
-import ButtonGroup from "../../controls/forms/ButtonGroup";
+import Button from "../../libraries/forms/controls/Button";
+import ButtonGroup from "../../libraries/forms/ButtonGroup";
 
 let Forms = ()=>{
   return <>

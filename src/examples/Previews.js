@@ -1,7 +1,7 @@
-import MarkdownContent from "../previews/MarkdownContent";
-import MediaURLPlayer from "../previews/MediaURLPlayer";
-import SourceCodeDisplay from "../previews/SourceCodeDisplay";
-import WikiPreview from "../previews/WikiPreview";
+import MarkdownContent from "../libraries/previews/MarkdownContent";
+import MediaURLPlayer from "../libraries/previews/MediaURLPlayer";
+import SourceCodeDisplay from "../libraries/previews/SourceCodeDisplay";
+import WikiPreview from "../libraries/previews/WikiPreview";
 
 function Previews() {
   return <>

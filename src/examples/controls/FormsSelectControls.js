@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import RadioGroup from "../../controls/forms/controls/options/RadioGroup";
-import Select from "../../controls/forms/controls/options/Select";
+import RadioGroup from "../../libraries/forms/controls/options/RadioGroup";
+import Select from "../../libraries/forms/controls/options/Select";
 
 let FormsSelectControls=()=>{
   const [radioGroup, setRadioGroup] = useState("oranges");

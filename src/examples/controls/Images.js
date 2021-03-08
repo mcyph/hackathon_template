@@ -1,5 +1,5 @@
-import ComparisonSlider from "../../controls/images/ComparisonSlider";
-import Parallax from "../../controls/images/Parallax";
+import ComparisonSlider from "../../libraries/images/ComparisonSlider";
+import Parallax from "../../libraries/images/Parallax";
 
 let Images=()=>{
   return <>

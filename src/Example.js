@@ -1,42 +1,42 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Containers from "./lib/examples/controls/Containers";
-import Progress from "./lib/examples/controls/Progress";
-import Navigation from "./lib/examples/controls/Navigation";
-import Floating from "./lib/examples/controls/Floating";
-import Tabs from "./lib/examples/controls/Tabs";
-import Icons from "./lib/examples/controls/Icons";
-import Images from "./lib/examples/controls/Images";
-import Menus from "./lib/examples/controls/Menus";
-import TablesGrids from "./lib/examples/controls/TablesGrids";
-import examplesListing from "./lib/examples/examplesListing.json";
+import Containers from "./examples/controls/Containers";
+import Progress from "./examples/controls/Progress";
+import Navigation from "./examples/controls/Navigation";
+import Floating from "./examples/controls/Floating";
+import Tabs from "./examples/controls/Tabs";
+import Icons from "./examples/controls/Icons";
+import Images from "./examples/controls/Images";
+import Menus from "./examples/controls/Menus";
+import TablesGrids from "./examples/controls/TablesGrids";
+import examplesListing from "./examples/examplesListing.json";
 
-import FlexContainer from "./lib/controls/containers/flexbox/FlexContainer";
-import FlexRow from "./lib/controls/containers/flexbox/FlexRow";
-import FlexCol from "./lib/controls/containers/flexbox/FlexCol";
+import FlexContainer from "./libraries/containers/flexbox/FlexContainer";
+import FlexRow from "./libraries/containers/flexbox/FlexRow";
+import FlexCol from "./libraries/containers/flexbox/FlexCol";
 
-import Charts from "./lib/examples/Charts";
-import Editors from "./lib/examples/Editors";
-import Gamification from "./lib/examples/Gamification";
-import Landing from "./lib/examples/Landing";
-import Layout from "./lib/examples/Layout";
-import Maps from "./lib/examples/Maps";
-import Previews from "./lib/examples/Previews";
+import Charts from "./examples/Charts";
+import Editors from "./examples/Editors";
+import Gamification from "./examples/Gamification";
+import Landing from "./examples/Landing";
+import Layout from "./examples/Layout";
+import Maps from "./examples/Maps";
+import Previews from "./examples/Previews";
 
-import OffCanvasSidebar from "./lib/controls/containers/offcanvas/OffCanvasSidebar";
-import OffCanvasContent from "./lib/controls/containers/offcanvas/OffCanvasContent";
-import OffCanvas from "./lib/controls/containers/offcanvas/OffCanvas";
-import SourceCodeDisplay from "./lib/previews/SourceCodeDisplay";
-import NavTree from "./lib/controls/navigation/navtree/NavTree";
-import NavTreeItem from "./lib/controls/navigation/navtree/NavTreeItem";
-import FormsButtons from "./lib/examples/controls/FormsButtons";
-import FormsSelectControls from "./lib/examples/controls/FormsSelectControls";
-import FormsSliders from "./lib/examples/controls/FormsSliders";
-import FormsTextControls from "./lib/examples/controls/FormsTextControls";
-import FormsToggleControls from "./lib/examples/controls/FormsToggleControls";
-import Labels from "./lib/examples/Labels";
-import Toasts from "./lib/examples/Toasts";
-import Calendars from "./lib/examples/controls/Calendars";
+import OffCanvasSidebar from "./libraries/containers/offcanvas/OffCanvasSidebar";
+import OffCanvasContent from "./libraries/containers/offcanvas/OffCanvasContent";
+import OffCanvas from "./libraries/containers/offcanvas/OffCanvas";
+import SourceCodeDisplay from "./libraries/previews/SourceCodeDisplay";
+import NavTree from "./libraries/navigation/navtree/NavTree";
+import NavTreeItem from "./libraries/navigation/navtree/NavTreeItem";
+import FormsButtons from "./examples/controls/FormsButtons";
+import FormsSelectControls from "./examples/controls/FormsSelectControls";
+import FormsSliders from "./examples/controls/FormsSliders";
+import FormsTextControls from "./examples/controls/FormsTextControls";
+import FormsToggleControls from "./examples/controls/FormsToggleControls";
+import Labels from "./examples/Labels";
+import Toasts from "./examples/Toasts";
+import Calendars from "./examples/controls/Calendars";
 
 let MyNav=()=>{
   return <>

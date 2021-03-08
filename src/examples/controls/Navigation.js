@@ -1,13 +1,13 @@
-import Breadcrumbs from "../../controls/navigation/breadcrumbs/Breadcrumbs";
-import BreadcrumbItem from "../../controls/navigation/breadcrumbs/BreadcrumbItem";
-import Navbar from "../../controls/navigation/navbar/Navbar";
-import NavbarBrand from "../../controls/navigation/navbar/NavbarBrand";
-import NavbarLink from "../../controls/navigation/navbar/NavbarLink";
-import NavbarSection from "../../controls/navigation/navbar/NavbarSection";
-import Steps from "../../controls/navigation/steps/Steps";
-import StepItem from "../../controls/navigation/steps/StepItem";
-import NavTree from "../../controls/navigation/navtree/NavTree";
-import NavTreeItem from "../../controls/navigation/navtree/NavTreeItem";
+import Breadcrumbs from "../../libraries/navigation/breadcrumbs/Breadcrumbs";
+import BreadcrumbItem from "../../libraries/navigation/breadcrumbs/BreadcrumbItem";
+import Navbar from "../../libraries/navigation/navbar/Navbar";
+import NavbarBrand from "../../libraries/navigation/navbar/NavbarBrand";
+import NavbarLink from "../../libraries/navigation/navbar/NavbarLink";
+import NavbarSection from "../../libraries/navigation/navbar/NavbarSection";
+import Steps from "../../libraries/navigation/steps/Steps";
+import StepItem from "../../libraries/navigation/steps/StepItem";
+import NavTree from "../../libraries/navigation/navtree/NavTree";
+import NavTreeItem from "../../libraries/navigation/navtree/NavTreeItem";
 
 let Navigation=()=>{
   return <>

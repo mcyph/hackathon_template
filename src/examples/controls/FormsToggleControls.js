@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import Checkbox from "../../controls/forms/controls/toggle/Checkbox";
-import ToggleSwitch from "../../controls/forms/controls/toggle/ToggleSwitch";
+import Checkbox from "../../libraries/forms/controls/toggle/Checkbox";
+import ToggleSwitch from "../../libraries/forms/controls/toggle/ToggleSwitch";
 
 let FormsToggleControls=()=>{
   const [checkbox1, setCheckbox1] = useState(false);

@@ -1,17 +1,17 @@
-import BasicPieChart from "../charts/BasicPieChart";
-import BasicLineChart from "../charts/BasicLineChart";
-import BasicBarChart from "../charts/BasicBarChart";
-import EChartsChart from "../charts/EChartsChart";
-import NestedPieChart from "../charts/NestedPieChart";
-import BoxPlotChart from "../charts/BoxPlotChart";
-import CandlestickChart from "../charts/CandlestickChart";
-import FunnelChart from "../charts/FunnelChart";
-import GaugeChart from "../charts/GaugeChart";
-import HeatmapCartesian from "../charts/HeatmapCartesian";
-import SankeyChart from "../charts/SankeyChart";
-import ScatterPlot from "../charts/ScatterPlot";
-import SunburstChart from "../charts/SunburstChart";
-import TreeMap from "../charts/TreeMap";
+import BasicPieChart from "../libraries/charts/BasicPieChart";
+import BasicLineChart from "../libraries/charts/BasicLineChart";
+import BasicBarChart from "../libraries/charts/BasicBarChart";
+import EChartsChart from "../libraries/charts/EChartsChart";
+import NestedPieChart from "../libraries/charts/NestedPieChart";
+import BoxPlotChart from "../libraries/charts/BoxPlotChart";
+import CandlestickChart from "../libraries/charts/CandlestickChart";
+import FunnelChart from "../libraries/charts/FunnelChart";
+import GaugeChart from "../libraries/charts/GaugeChart";
+import HeatmapCartesian from "../libraries/charts/HeatmapCartesian";
+import SankeyChart from "../libraries/charts/SankeyChart";
+import ScatterPlot from "../libraries/charts/ScatterPlot";
+import SunburstChart from "../libraries/charts/SunburstChart";
+import TreeMap from "../libraries/charts/TreeMap";
 
 let Charts=()=>{
   return <>
