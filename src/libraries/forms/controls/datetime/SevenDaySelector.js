@@ -25,7 +25,22 @@ SOFTWARE.
 import { Component } from "react";
 
 class SevenDaySelector extends Component {
+  /**
+   *
+   * @param currentDate
+   * @param disabled
+   * @param enabled
+   * @param selected
+   * @param onSelect
+   * @param style
+   */
   constructor({ currentDate, disabled, enabled, selected, onSelect, style }) {
+    if (enabled && disabled) {
+      // if enabled is provided then only those provided will be selectable
+      // if disabled is provided then only those not provided will be selectable
+      // currently both at once aren't supported
+      throw new Error("Only one of enabled or disabled allowed");
+    }
     selected = selected || [];
     disabled = disabled || [];
     super({ currentDate, disabled, enabled, selected, onSelect, style });
@@ -107,8 +122,7 @@ class SevenDaySelector extends Component {
                     style={{
                       padding: 0,
                       margin: 0,
-                      borderRadius: "0",
-                      color: "black"
+                      borderRadius: "0"
                     }}>
               { hours }
             </button>
