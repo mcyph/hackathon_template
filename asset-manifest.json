@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react_spectrecss_kickstarter/static/css/main.2389e904.chunk.css",
-    "main.js": "/react_spectrecss_kickstarter/static/js/main.4481993a.chunk.js",
-    "main.js.map": "/react_spectrecss_kickstarter/static/js/main.4481993a.chunk.js.map",
-    "runtime-main.js": "/react_spectrecss_kickstarter/static/js/runtime-main.305008ef.js",
-    "runtime-main.js.map": "/react_spectrecss_kickstarter/static/js/runtime-main.305008ef.js.map",
-    "static/css/2.aa42b740.chunk.css": "/react_spectrecss_kickstarter/static/css/2.aa42b740.chunk.css",
-    "static/js/2.cafb2564.chunk.js": "/react_spectrecss_kickstarter/static/js/2.cafb2564.chunk.js",
-    "static/js/2.cafb2564.chunk.js.map": "/react_spectrecss_kickstarter/static/js/2.cafb2564.chunk.js.map",
-    "static/js/3.7a19ff70.chunk.js": "/react_spectrecss_kickstarter/static/js/3.7a19ff70.chunk.js",
-    "static/js/3.7a19ff70.chunk.js.map": "/react_spectrecss_kickstarter/static/js/3.7a19ff70.chunk.js.map",
+    "main.css": "/react_spectrecss_kickstarter/static/css/main.3b855088.chunk.css",
+    "main.js": "/react_spectrecss_kickstarter/static/js/main.3765e785.chunk.js",
+    "main.js.map": "/react_spectrecss_kickstarter/static/js/main.3765e785.chunk.js.map",
+    "runtime-main.js": "/react_spectrecss_kickstarter/static/js/runtime-main.04dc9be0.js",
+    "runtime-main.js.map": "/react_spectrecss_kickstarter/static/js/runtime-main.04dc9be0.js.map",
+    "static/css/2.0b4762ee.chunk.css": "/react_spectrecss_kickstarter/static/css/2.0b4762ee.chunk.css",
+    "static/js/2.1c414427.chunk.js": "/react_spectrecss_kickstarter/static/js/2.1c414427.chunk.js",
+    "static/js/2.1c414427.chunk.js.map": "/react_spectrecss_kickstarter/static/js/2.1c414427.chunk.js.map",
+    "static/js/3.618d836b.chunk.js": "/react_spectrecss_kickstarter/static/js/3.618d836b.chunk.js",
+    "static/js/3.618d836b.chunk.js.map": "/react_spectrecss_kickstarter/static/js/3.618d836b.chunk.js.map",
     "index.html": "/react_spectrecss_kickstarter/index.html",
-    "static/css/2.aa42b740.chunk.css.map": "/react_spectrecss_kickstarter/static/css/2.aa42b740.chunk.css.map",
-    "static/css/main.2389e904.chunk.css.map": "/react_spectrecss_kickstarter/static/css/main.2389e904.chunk.css.map",
-    "static/js/2.cafb2564.chunk.js.LICENSE.txt": "/react_spectrecss_kickstarter/static/js/2.cafb2564.chunk.js.LICENSE.txt",
+    "static/css/2.0b4762ee.chunk.css.map": "/react_spectrecss_kickstarter/static/css/2.0b4762ee.chunk.css.map",
+    "static/css/main.3b855088.chunk.css.map": "/react_spectrecss_kickstarter/static/css/main.3b855088.chunk.css.map",
+    "static/js/2.1c414427.chunk.js.LICENSE.txt": "/react_spectrecss_kickstarter/static/js/2.1c414427.chunk.js.LICENSE.txt",
     "static/js/mapbox-gl-csp-worker.501eed40.worker.js": "/react_spectrecss_kickstarter/static/js/mapbox-gl-csp-worker.501eed40.worker.js",
     "static/js/mapbox-gl-csp-worker.501eed40.worker.js.map": "/react_spectrecss_kickstarter/static/js/mapbox-gl-csp-worker.501eed40.worker.js.map",
     "static/media/App.css": "/react_spectrecss_kickstarter/static/media/fa-solid-900.f4f93856.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.305008ef.js",
-    "static/css/2.aa42b740.chunk.css",
-    "static/js/2.cafb2564.chunk.js",
-    "static/css/main.2389e904.chunk.css",
-    "static/js/main.4481993a.chunk.js"
+    "static/js/runtime-main.04dc9be0.js",
+    "static/css/2.0b4762ee.chunk.css",
+    "static/js/2.1c414427.chunk.js",
+    "static/css/main.3b855088.chunk.css",
+    "static/js/main.3765e785.chunk.js"
   ]
 }
