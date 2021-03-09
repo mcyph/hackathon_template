@@ -18,11 +18,15 @@ class Maps extends Component {
       <h2>Maps/GIS</h2>
 
       <h3>Geocoding Search</h3>
-      <GeoCoderControl />
+      <p>
+        <GeoCoderControl />
+      </p>
 
       <h3>Maps</h3>
-      <MapboxControl ref={el => {this.__mapboxControl = el;}}
-                     style={{ height: "50vh" }} />
+      <p>
+        <MapboxControl ref={el => {this.__mapboxControl = el;}}
+                       style={{ height: "50vh" }} />
+      </p>
     </>;
   }
 

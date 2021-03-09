@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Slider from "../../libraries/forms/controls/sliders/Slider";
+import { Slider } from "../../libraries/forms";
 
 let FormsSliders=()=>{
   const [slider, setSlider] = useState(50);

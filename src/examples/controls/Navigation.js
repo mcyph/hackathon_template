@@ -1,13 +1,7 @@
-import Breadcrumbs from "../../libraries/navigation/breadcrumbs/Breadcrumbs";
-import BreadcrumbItem from "../../libraries/navigation/breadcrumbs/BreadcrumbItem";
-import Navbar from "../../libraries/navigation/navbar/Navbar";
-import NavbarBrand from "../../libraries/navigation/navbar/NavbarBrand";
-import NavbarLink from "../../libraries/navigation/navbar/NavbarLink";
-import NavbarSection from "../../libraries/navigation/navbar/NavbarSection";
-import Steps from "../../libraries/navigation/steps/Steps";
-import StepItem from "../../libraries/navigation/steps/StepItem";
-import NavTree from "../../libraries/navigation/navtree/NavTree";
-import NavTreeItem from "../../libraries/navigation/navtree/NavTreeItem";
+import { Steps, StepItem } from "../../libraries/navigation";
+import { NavTree, NavTreeItem } from "../../libraries/navigation";
+import { Breadcrumbs, BreadcrumbItem } from "../../libraries/navigation";
+import { Navbar, NavbarBrand, NavbarLink, NavbarSection } from "../../libraries/navigation";
 
 let Navigation=()=>{
   return <>

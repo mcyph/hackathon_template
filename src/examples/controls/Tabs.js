@@ -1,5 +1,4 @@
-import Tabs from "../../libraries/tabs/Tabs";
-import TabItem from "../../libraries/tabs/TabItem";
+import { Tabs, TabItem } from "../../libraries/tabs";
 
 let _Tabs=()=>{
   return <>

@@ -1,13 +1,12 @@
-//import CommentEditor from "../editors/CommentEditor";
-import MarkdownEditor from "../libraries/editors/MarkdownEditor";
-import SourceCodeEditor from "../libraries/editors/SourceCodeEditor";
+//CommentEditor
+import { MarkdownEditor, SourceCodeEditor } from "../libraries/editors";
 
 let Editors=()=>{
   return <>
     <h2>Editors</h2>
     <h3>Markdown Editor</h3>
     <p>
-      <MarkdownEditor></MarkdownEditor>
+      <MarkdownEditor />
     </p>
     <hr/>
 

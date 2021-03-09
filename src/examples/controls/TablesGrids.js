@@ -1,10 +1,4 @@
-import Table from "../../libraries/tables_grids/table/Table";
-import TableBody from "../../libraries/tables_grids/table/TableBody";
-import TableCol from "../../libraries/tables_grids/table/TableCol";
-import TableRow from "../../libraries/tables_grids/table/TableRow";
-import TableHeader from "../../libraries/tables_grids/table/TableHeader";
-import TableHeaderCol from "../../libraries/tables_grids/table/TableHeaderCol";
-import TableFooter from "../../libraries/tables_grids/table/TableFooter";
+import {Table, TableBody, TableRow, TableCol, TableHeader, TableHeaderCol, TableFooter} from "../../libraries/tables_grids";
 
 let TablesGrids=()=>{
   return <>

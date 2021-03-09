@@ -1,7 +1,4 @@
-import Menu from "../../libraries/menus/Menu";
-import MenuBadge from "../../libraries/menus/MenuBadge";
-import MenuDivider from "../../libraries/menus/MenuDivider";
-import MenuItem from "../../libraries/menus/MenuItem";
+import { Menu, MenuBadge, MenuDivider, MenuItem } from "../../libraries/menus";
 
 let Menus=()=>{
   return <>

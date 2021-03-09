@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-import Calendar from "../../libraries/forms/controls/datetime/Calendar";
-import SevenDaySelector from "../../libraries/forms/controls/datetime/SevenDaySelector";
+import { Calendar, SevenDaySelector } from "../../libraries/forms";
 
 let Calendars=()=>{
   const [sevenDaySelected, setSevenDaySelected] = useState([]);

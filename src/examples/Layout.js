@@ -1,13 +1,4 @@
-import FlexCol from "../libraries/containers/flexbox/FlexCol";
-import FlexRow from "../libraries/containers/flexbox/FlexRow";
-import FlexContainer from "../libraries/containers/flexbox/FlexContainer";
-import EmailLogin from "../libraries/landing/login/EmailLogin";
-import Navbar from "../libraries/navigation/navbar/Navbar";
-import NavbarBrand from "../libraries/navigation/navbar/NavbarBrand";
-import NavbarLink from "../libraries/navigation/navbar/NavbarLink";
-import NavbarSection from "../libraries/navigation/navbar/NavbarSection";
-import Visibility from "../libraries/utilities/Visibility";
-import Hero from "../libraries/containers/Hero";
+import { FlexContainer, FlexRow, FlexCol } from "../libraries/containers";
 
 let Layout=()=>{
   return <>

@@ -1,5 +1,4 @@
-import Progress from "../../libraries/progress/Progress";
-import ProgressBar from "../../libraries/progress/ProgressBar";
+import { Progress, ProgressBar } from "../../libraries/progress";
 
 let _Progress=()=>{
   return <>
