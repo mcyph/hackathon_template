@@ -1,4 +1,5 @@
 import { MarkdownContent, SourceCodeDisplay } from "../libraries/previews";
+import Python from "../libraries/previews/Python";
 
 function Previews() {
   return <>
@@ -18,6 +19,10 @@ function Previews() {
         language="python"
         code={ "#!/usr/bin/python3\n\nprint('Hello World!')" }
     />
+
+    <h3>Python Code Run (Pyodide)</h3>
+
+    <Python />
   </>;
 }
 
